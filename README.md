@@ -4,6 +4,8 @@ Native SwiftUI iPhone app for browsing the UIL Prescribed Music List.
 
 This app is intentionally kept in a separate repo from the web project. The web repo remains the source of truth for the generated UIL JSON datasets, and this app reads those datasets over HTTPS.
 
+This app is not officially endorsed by, affiliated with, or sponsored by UIL.
+
 ## Current architecture
 
 - iOS app: SwiftUI client in this repo
@@ -33,6 +35,12 @@ The current MVP includes:
 - Class-level filtering when UIL class levels are present
 - Quick stats header for the selected dataset
 - Public-domain and affiliate sheet-music links when provided in the JSON
+
+## AI handoff
+
+- Read `README.md` and `AI_CONTEXT.md` at the start of a new AI session before making repo changes.
+- If a run changes the app’s architecture, data-source contract, disclaimer language, or App Store positioning, update both files before pushing.
+- Keep this repo separate from the web repo; automate shared data carefully, but do not assume UI or app-code changes should sync automatically across repos.
 
 ## Notes
 

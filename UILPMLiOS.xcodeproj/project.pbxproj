@@ -27,7 +27,7 @@
 		63436968D9E6C1341A13D373 /* UILPMLiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILPMLiOSApp.swift; sourceTree = "<group>"; };
 		844F151359B7CF37784A1056 /* DatasetBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetBrowserView.swift; sourceTree = "<group>"; };
 		9A144406A883E73560AA5F69 /* UILDatasetStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILDatasetStats.swift; sourceTree = "<group>"; };
-		9D8B94D1337C38F10563121D /* UILPMLiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = UILPMLiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8B94D1337C38F10563121D /* UIL PML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIL PML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67B47178A2D65F136B0663B /* DatasetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetListView.swift; sourceTree = "<group>"; };
 		AB0A153A84C99200F9E8382F /* DatasetBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetBrowserViewModel.swift; sourceTree = "<group>"; };
 		AE70BE3AEF950483A2C5EBBA /* UILDataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILDataset.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		C8C01771E552A3AC7EC49B2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D8B94D1337C38F10563121D /* UILPMLiOS.app */,
+				9D8B94D1337C38F10563121D /* UIL PML.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			packageProductDependencies = (
 			);
 			productName = UILPMLiOS;
-			productReference = 9D8B94D1337C38F10563121D /* UILPMLiOS.app */;
+			productReference = 9D8B94D1337C38F10563121D /* UIL PML.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,9 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
+				LastUpgradeCheck = 2630;
 			};
 			buildConfigurationList = E878AE84C8176E528D786FD8 /* Build configuration list for PBXProject "UILPMLiOS" */;
 			developmentRegion = en;
@@ -221,8 +219,10 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2WHPL8C57Y;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -249,6 +249,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelleyparker.UILPMLiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
@@ -291,8 +292,10 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2WHPL8C57Y;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -312,6 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelleyparker.UILPMLiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 6.0;

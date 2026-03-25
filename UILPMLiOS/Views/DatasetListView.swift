@@ -7,7 +7,7 @@ struct DatasetListView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Text("Texas UIL Prescribed Music List")
                         .font(.title2.weight(.bold))
-                    Text("Browse the same datasets used by the web app, with fast mobile search, class filters, public-domain links, and affiliate sheet-music links when available.")
+                    Text("Browse the same datasets used by the web app, with fast mobile search, class filters, public-domain links, and affiliate sheet-music links when available. This app is not officially endorsed by, affiliated with, or sponsored by UIL.")
                         .foregroundStyle(.secondary)
                 }
                 .padding(.vertical, 8)
